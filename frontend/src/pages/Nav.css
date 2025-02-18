@@ -1,0 +1,18 @@
+
+
+
+  body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure consistent sizing */
+    min-height: 100vh; /* Make sure body covers the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/i.jpg'); /* Path to your image */
+    background-size: cover; /* Make the image cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling of the image */
+    overflow: hidden; /* Prevent scrolling caused by margins or elements */
+  }
+  

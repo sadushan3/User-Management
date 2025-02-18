@@ -1,0 +1,36 @@
+/* Import Tailwind's base styles */
+@tailwind base;
+
+/* Import Tailwind's component styles */
+@tailwind components;
+
+/* Import Tailwind's utility styles */
+@tailwind utilities;
+
+/* Additional global styles for your project */
+@layer base {
+  html, body {
+    @apply overflow-x-hidden; /* Prevent horizontal scrolling */
+    @apply h-full; /* Ensure the html and body take up the full height of the viewport */
+    @apply m-0; /* Remove default margins */
+    @apply p-0; /* Remove default padding */
+  }
+
+  /* Ensure images and other media fit properly */
+  img, video {
+    @apply max-w-full; /* Images scale properly */
+    @apply h-auto; /* Maintain aspect ratio */
+  }
+}
+
+@layer utilities {
+  /* Optional: Custom utility classes for consistent use */
+  .no-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Edge */
+  }
+}
