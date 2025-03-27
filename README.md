@@ -24,7 +24,7 @@ This project is a **User Management System** that includes features like login, 
 
 - **Frontend**: React.js with Tailwind CSS for styling.
 - **Backend**: Node.js with Express.js for server-side functionality.
-- **Database**: MongoDB or MySQL (if applicable).
+- **Database**: MongoDB 
 - **Email Service**: Nodemailer for sending password reset emails.
 - **API Testing**: Postman for testing and debugging API endpoints.
 
